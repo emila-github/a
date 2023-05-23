@@ -62,6 +62,14 @@ module.exports = {
     // host: '0.0.0.0',
     public: '40.177.36.19:8080',
     proxy: {
+      '/api/qt/*': {
+        target: 'http://78.push2his.eastmoney.com/',
+        ws: false,
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api/qt': '/api/qt' //需要rewrite重写的,
+        }
+      },
       '/utf8': {
         target: 'https://web.sqt.gtimg.cn/',
         ws: false,
@@ -70,14 +78,7 @@ module.exports = {
           '^/utf8': '' //需要rewrite重写的,
         }
       },
-      '/api': {
-        target: 'https://push2his.eastmoney.com/',
-        ws: false,
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api': '' //需要rewrite重写的,
-        }
-      },
+
       // '/wx/': {
       //   target: 'http://rcepicc.vaiwan.com',
       //   ws: false,
