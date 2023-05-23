@@ -1,0 +1,8 @@
+export const ACCESS_TOKEN = 'Access-Token'
+export const AUTH_ID = 'authId'
+export const WX_ID = 'WX-ID'
+export const MAP_ID = 'MAP-ID'
+export const USER_INFO = 'Login_Userinfo'
+export const SYS_BUTTON_AUTH = 'SYS_BUTTON_AUTH'
+export const SYS_MENU_AUTH = 'SYS_MENU_AUTH'
+export const SHARE_TOKEN = 'Share-Token'
