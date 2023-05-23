@@ -5,7 +5,7 @@
   "scripts": {
     "start-devtools": "vue-devtools",
     "serve": "vue-cli-service serve",
-    "zyn": "vue-cli-service serve --fix --mode zyn",
+    "dev": "vue-cli-service serve --fix --mode dev",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
