@@ -1,18 +1,11 @@
 <template>
-  <img
-    :src="logo"
-    class="headerpic"
-    alt="PICC 中国人保财险"
-  />
+  <div></div>
 </template>
 
 <script>
-import logo from '@/assets/logo-title.png'
 export default {
   data() {
-    return {
-      logo,
-    }
+    return {}
   },
 }
 </script>
