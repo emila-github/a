@@ -31,8 +31,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 上线地址
 
-http://www.rcepicc.com/
+http://www.rceppp.com/
 
 ### 本地开发测试地址
 
-http://rcepicc.vaiwan.com
+http://rceppp.vaiwan.com

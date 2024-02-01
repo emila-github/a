@@ -80,7 +80,7 @@ module.exports = {
       },
 
       // '/wx/': {
-      //   target: 'http://rcepicc.vaiwan.com',
+      //   target: 'http://rceppp.vaiwan.com',
       //   ws: false,
       //   changeOrigin: true,
       // },
